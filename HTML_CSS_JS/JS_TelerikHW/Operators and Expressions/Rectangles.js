@@ -2,15 +2,12 @@ function solve(args) {
    let width = +args[0];
    let height = +args[1];
 
-   let area = function(width, height){
-    return width * height
-   };
-   let perimenter = function(width, height){
-    return 2 * (width + height)  
-   }
+   let area = width * height
 
-   console.log(area + ' ' + perimenter);
+   let perimenter = 2 * (width + height)
+   
 
+   console.log(area.toFixed(2) + ' ' + perimenter.toFixed(2));
 
 }
 
